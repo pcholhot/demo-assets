@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro:400,700);
+
+html, body {
+    background: #f5f5f5;
+    color: #333;
+    font-size: 1em;
+    font-family: 'Anonymous Pro', sans-serif;
+}
+
+.gh-links {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.gh-links li {
+    padding: .6em .978em;
+    background: #FFF;
+    float: left;
+    color: #666;
+    border-top-right-radius: 21px;
+}
+
+.gh-links li:last-child {
+    float: right;
+    border-top-right-radius: 0;
+    border-top-left-radius: 21px;
+}
+
+.gh-links a {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px dashed #333;
+    padding-bottom: .1em;
+}
